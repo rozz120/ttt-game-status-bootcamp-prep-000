@@ -42,16 +42,12 @@ end
 
 def full?(board)
   
+  fullArray = []
+  
   board.each do |is_board_full|
     
-  if is_board_full == " "
-    return false
-  
-  
   elsif is_board_full == "X" || is_board_full == "O"
-      return true
       
-  
     end
   end
 end
