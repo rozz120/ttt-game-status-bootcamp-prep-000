@@ -72,6 +72,9 @@ end
 
 def over?(board)
   
+  if draw?(board) == true
+    return true
+  
   if won?(board) == true && full?(board) == false
     puts "hello down there"
     
