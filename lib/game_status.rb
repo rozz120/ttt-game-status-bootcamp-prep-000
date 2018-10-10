@@ -26,9 +26,14 @@ def won?(board)
     win_index_2 = win_combinations[1]
     win_index_3 = win_combinations[2]
     
-    puts win_index_1
-    puts win_index_2
-    puts win_index_3
+    position_1 = board[win_index_1]
+    position_2 = board[win_index_2]
+    position_3 = board[win_index_3]
+
+    
+    puts position_1
+    puts position_2
+    puts position_3
     
     
   end
