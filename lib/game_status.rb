@@ -33,10 +33,8 @@ def won?(board)
       
     elsif position_1 == "O" && position_2 == "O"  && position_3 == "O"
       return win_combinations
-      
-    elsif (position_1 != "X" && position_2 != "X"  && position_3 != "X") || (position_1 != "O" && position_2 != "O"  && position_3 != "O")
-      return false
     end
+    return false
   end
 end
  
