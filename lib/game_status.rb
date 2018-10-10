@@ -91,9 +91,8 @@ end
 
 def winner(board)
   
-  if won?(board) != false
-    win_index = win_combinations[0] 
-    winning_letter = board[win_index]
+  win_index = won?(board)
+  winning_letter = board[win_index]
     
     return winning_letter
     
