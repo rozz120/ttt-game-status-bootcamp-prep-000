@@ -44,7 +44,14 @@ def full?(board)
   
   board.each do |is_board_full|
     
-    puts is_board_full
+  if is_board_full == "X" || is_board_full == "O"
+      return true
+      
+  elsif is_board_full == " "
+      return false
+      
+    end
+
     
    
   end
