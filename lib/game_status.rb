@@ -95,7 +95,7 @@ def winner(board)
     win_index = win_combinations[0] 
     winning_letter = board[win_index]
     
-    returnwinning_letter
+    return winning_letter
     
   else
     return nil
