@@ -72,16 +72,15 @@ end
 
 def over?(board)
   
-  if draw?(board) == true
-    return true
+ 
     
-  elsif won?(board) == true && full?(board) == true  
+  if won?(board) == true && full?(board) == true  
     return true
     
   elsif full?(board) == false && won?(board) == true
     return true
     
- 
+
     
   end
 end
