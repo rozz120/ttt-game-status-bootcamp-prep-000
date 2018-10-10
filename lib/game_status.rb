@@ -91,14 +91,12 @@ end
 
 def winner(board)
   
+  if won?(board) != false
   win_index = won?(board)
-  
   winning_letter = board[win_index[0]]
-  
   return winning_letter
     
-  else
-    return nil
+  
     
   end
 end
