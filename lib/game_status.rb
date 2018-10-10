@@ -48,7 +48,7 @@ def full?(board)
       return true
       
   else
-      return false
+      puts "ive hit the else"
     end
   end
 end
