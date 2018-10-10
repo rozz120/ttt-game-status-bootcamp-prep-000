@@ -41,7 +41,6 @@ end
 
 
 def full?(board)
-  
   fullArray = []
   
   board.each do |is_board_full|
