@@ -32,7 +32,7 @@ def won?(board)
 
     if position_1 == "X" && position_2 == "X"  && position_3 == "X"
       puts win_combinations
-        return win_combinations
+        
     else
       return false
 
