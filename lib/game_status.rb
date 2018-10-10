@@ -47,7 +47,7 @@ def full?(board)
     if is_board_full == "X" || is_board_full == "O"
       return true
       
-    if is_board_full == ""
+    if is_board_full == " "
       return false
       
     end
