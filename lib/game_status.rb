@@ -41,6 +41,7 @@ def won?(board)
       puts win_combinations
       return false
     end
+  end
       
   end
 end
