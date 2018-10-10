@@ -86,6 +86,14 @@ else
  
   end
 end
+
+
+
+
+
+def winner(baord)
+  
+  
     
  
     
