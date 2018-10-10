@@ -76,7 +76,7 @@ def over?(board)
     return true
   
   elsif won?(board) == true && full?(board) == false
-    puts "hello down there"
+    return true
     
  
     
