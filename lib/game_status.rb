@@ -46,10 +46,16 @@ def full?(board)
   
   board.each do |is_board_full|
     
-  elsif is_board_full == "X" || is_board_full == "O"
+  if is_board_full == "X" || is_board_full == "O"
+      fullArray.push (is_board_full)
       
     end
   end
+  
+  if fullArray.length == 9
+    return true
+  else
+    return false
 end
     
  
