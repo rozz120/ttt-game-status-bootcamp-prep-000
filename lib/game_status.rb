@@ -51,8 +51,7 @@ def full?(board)
   elsif is_board_full == "X" || is_board_full == "O"
       return true
       
-  else
-      puts "ive hit the else"
+  
     end
   end
 end
