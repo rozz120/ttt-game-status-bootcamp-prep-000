@@ -92,9 +92,10 @@ end
 def winner(board)
   
   win_index = won?(board)
-  winning_letter = board[win_index]
-    
-    return winning_letter
+  
+  winning_letter = board[win_index[0]]
+  
+  return winning_letter
     
   else
     return nil
