@@ -37,6 +37,14 @@ def won?(board)
   end
   return false
 end
+
+
+
+def full?(board)
+  
+  board.each do |is_board_full|
+    
+    
  
     
  
