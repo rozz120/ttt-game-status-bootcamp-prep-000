@@ -18,16 +18,11 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  for win_combination in WIN_COMBINATIONS
+  WIN_COMBINATIONS.each do |win_combinations|
     
-    
-    return win_combination
-    else
-      false
-  end
-end
-    
-    
+    win_index_1=
+    win_index_2
+    win_index_3
     
     
     
