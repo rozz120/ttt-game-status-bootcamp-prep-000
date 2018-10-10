@@ -98,7 +98,7 @@ def winner(board)
     returnwinning_letter
     
   else
-    return false
+    return nil
     
   end
 end
